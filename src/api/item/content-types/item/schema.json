@@ -28,15 +28,8 @@
       "required": true
     },
     "image": {
-      "type": "media",
-      "multiple": false,
-      "required": true,
-      "allowedTypes": [
-        "images",
-        "files",
-        "videos",
-        "audios"
-      ]
+      "type": "string",
+      "required": true
     },
     "category": {
       "type": "enumeration",
